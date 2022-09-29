@@ -1,0 +1,236 @@
+<html>
+    <head>
+        <title>Zomato</title>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-dark fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#" style="font-size: 30px; font-weight: bold;" >Zomato</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Zomato</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"></a>
+                    </li>
+                  </ul>
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <div id="search">
+            <div id="heading">
+                Find Best Place Near You
+            </div>
+            <div id="dropdown">
+                <select>
+                    <option>----SELECT YOUR CITY----</option>
+                    <option>Chennai</option>
+                    <option>Coimbatore</option>
+                    <option>Madurai</option>
+                </select>
+                <select>
+                    <option id="restaurants">----SELECT YOUR RESTAURANTS----</option>
+                    <option>Smoke Hub</option>
+                    <option>Chick Blast</option>
+                    <option>Grilland</option>
+                </select>
+            </div>
+          </div>
+          <div id="contentDiv">
+                  <div id="main">
+                      <div class="tilecontainer">
+                          <div class="tilecomponent1">
+                              <img src="images/briyani.jpeg" alt="briyani"/>
+                          </div>
+                          <div class="tilecomponent2">
+                              <div class="componentHeading">
+                                  <a href="../listing.listing.html">Briyani</a>
+                              </div>
+                              <div class="componentSubHeading">
+                                  Rs: 180.00
+                              </div>
+                              <button type="button" class="btn btn-danger">Order Now</button>
+                          </div>
+                      </div>
+                      <div class="tilecontainer">
+                          <div class="tilecomponent1">
+                              <img src="images/burger.jpg" alt="burger"/>
+                          </div>
+                          <div class="tilecomponent2">
+                              <div class="componentHeading">
+                                  <a href="../listing.listing.html">Burger</a>
+                              </div>
+                              <div class="componentSubHeading">
+                                  Rs: 70.00
+                              </div>
+                              <button type="button" class="btn btn-danger">Order Now</button>
+                          </div>
+                      </div>
+                      <div class="tilecontainer">
+                          <div class="tilecomponent1">
+                              <img src="images/chicken.jpg" alt="chicken"/>
+                          </div>
+                          <div class="tilecomponent2">
+                              <div class="componentHeading">
+                                  <a href="../listing.listing.html">Chicken Tandoori</a>
+                              </div>
+                              <div class="componentSubHeading">
+                                  Rs: 360.00
+                              </div>
+                              <button type="button" class="btn btn-danger">Order Now</button>
+                          </div>
+                      </div>
+                      <div class="tilecontainer">
+                          <div class="tilecomponent1">
+                              <img src="images/coffee.jpeg" alt="coffee"/>
+                          </div>
+                          <div class="tilecomponent2">
+                              <div class="componentHeading">
+                                  <a href="../listing.listing.html">Coffee</a>
+                              </div>
+                              <div class="componentSubHeading">
+                                  Rs: 30.00
+                              </div>
+                              <button type="button" class="btn btn-danger">Order Now</button>
+                          </div>
+                      </div>
+                      <div class="tilecontainer">
+                          <div class="tilecomponent1">
+                              <img src="images/dosa.jpeg" alt="dosa"/>
+                          </div>
+                          <div class="tilecomponent2">
+                              <div class="componentHeading">
+                                  <a href="../listing.listing.html">Dosa</a>
+                              </div>
+                              <div class="componentSubHeading">
+                                  Rs: 40.00
+                              </div>
+                              <button type="button" class="btn btn-danger">Order Now</button>
+                          </div>
+                      </div>
+                      <div class="tilecontainer">
+                          <div class="tilecomponent1">
+                              <img src="images/friedrice.jpeg" alt="friedrice"/>
+                          </div>
+                          <div class="tilecomponent2">
+                              <div class="componentHeading">
+                                  <a href="../listing.listing.html">Fried Rice</a>
+                              </div>
+                              <div class="componentSubHeading">
+                                  Rs: 100.00
+                              </div>
+                              <button type="button" class="btn btn-danger">Order Now</button>
+                          </div>
+                      </div>
+                      <div class="tilecontainer">
+                          <div class="tilecomponent1">
+                              <img src="images/icecream.jpg" alt="icecream"/>
+                          </div>
+                          <div class="tilecomponent2">
+                              <div class="componentHeading">
+                                  <a href="../listing.listing.html">Ice Cream</a>
+                              </div>
+                              <div class="componentSubHeading">
+                                  Rs: 80.00
+                              </div>
+                              <button type="button" class="btn btn-danger">Order Now</button>
+                          </div>
+                      </div>
+                      <div class="tilecontainer">
+                          <div class="tilecomponent1">
+                              <img src="images/idly.jpg" alt="idly"/>
+                          </div>
+                          <div class="tilecomponent2">
+                              <div class="componentHeading">
+                                  <a href="../listing.listing.html">Idly</a>
+                              </div>
+                              <div class="componentSubHeading">
+                                  Rs: 30.00
+                              </div>
+                              <button type="button" class="btn btn-danger">Order Now</button>
+                          </div>
+                      </div>
+                      <div class="tilecontainer">
+                          <div class="tilecomponent1">
+                              <img src="images/meals.jpg" alt="meals"/>
+                          </div>
+                          <div class="tilecomponent2">
+                              <div class="componentHeading">
+                                  <a href="../listing.listing.html">Meals</a>
+                              </div>
+                              <div class="componentSubHeading">
+                                  Rs: 120.00
+                              </div>
+                              <button type="button" class="btn btn-danger">Order Now</button>
+                          </div>
+                      </div>
+                      <div class="tilecontainer">
+                        <div class="tilecomponent1">
+                            <img src="images/shawarma.jpeg" alt="meals"/>
+                        </div>
+                        <div class="tilecomponent2">
+                            <div class="componentHeading">
+                                <a href="../listing.listing.html">Shawarma</a>
+                            </div>
+                            <div class="componentSubHeading">
+                                Rs: 100.00
+                            </div>
+                            <button type="button" class="btn btn-danger">Order Now</button>
+                        </div>
+                      </div>
+                      <div class="tilecontainer">
+                        <div class="tilecomponent1">
+                            <img src="images/noodles.jpeg" alt="meals"/>
+                        </div>
+                        <div class="tilecomponent2">
+                            <div class="componentHeading">
+                                <a href="../listing.listing.html">Noodles</a>
+                            </div>
+                            <div class="componentSubHeading">
+                                Rs: 90.00
+                            </div>
+                            <button type="button" class="btn btn-danger">Order Now</button>
+                        </div>
+                      </div>
+                      <div class="tilecontainer">
+                        <div class="tilecomponent1">
+                            <img src="images/non.jpg" alt="meals"/>
+                        </div>
+                        <div class="tilecomponent2">
+                            <div class="componentHeading">
+                                <a href="../listing.listing.html">Butter-Non</a>
+                            </div>
+                            <div class="componentSubHeading">
+                                Rs: 70.00
+                            </div>
+                            <button type="button" class="btn btn-danger">Order Now</button>
+                        </div>
+                      </div>
+                  </div>
+              </div> 
+          </div>
+          </hr> 
+          <div id="footerDiv">
+            <p>&copy;Zomato</p>
+            <p>Contact Us</p>
+            <p>About</p>
+          </div>
+    </body>
+</html>
